@@ -13,10 +13,9 @@ This repository contains the code for the following Deno modules:
 - vscode_languageserver_textdocument: implement text documents usable in a LSP server using Deno as a runtime.
 - vscode_languageserver_protocol: the actual language server protocol definition in TypeScript.
 - vscode_languageserver_types: data types used by the language server client and server.
-
 - vscode_jsonrpc: the underlying message protocol to communicate between a client and a server.
 
-**NOTE**: vscode-languageclient: npm module to talk to a VSCode language server from a VSCode extension
+**NOTE**: vscode-languageclient: npm module to talk to a VSCode language server from a VSCode extension.
 
 ### License
 
