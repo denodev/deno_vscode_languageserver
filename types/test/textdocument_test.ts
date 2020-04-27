@@ -1,7 +1,9 @@
 import {
-  assertEquals, assertStrictEq, assertThrows,
+  assertEquals,
+  assertStrictEq,
+  assertThrows,
 } from "https://deno.land/std/testing/asserts.ts";
-import { TextDocument, Range, Position } from "./mod.ts";
+import { TextDocument, Range, Position } from "../mod.ts";
 
 function newDocument(str: string): TextDocument {
   return TextDocument.create("file://foo/bar", "text", 0, str);

@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
-import { Range, Position, Hover, MarkedString, TextEdit } from "./mod.ts";
+import { Range, Position, Hover, MarkedString, TextEdit } from "../mod.ts";
 
 const { test } = Deno;
 

@@ -2,7 +2,7 @@ import {
   assertEquals,
   assertThrows,
 } from "https://deno.land/std/testing/asserts.ts";
-import { TextDocument, TextEdit, Position, Range } from "./mod.ts";
+import { TextDocument, TextEdit, Position, Range } from "../mod.ts";
 
 const applyEdits = TextDocument.applyEdits;
 
